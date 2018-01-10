@@ -1,0 +1,8 @@
+server:
+  port: 8080
+  context-path: /image-hash
+  display-name: image-hash
+spring:
+  data:
+    mongodb:
+      uri: mongodb://10.19.15.44:37017,10.19.15.43:37017,10.19.15.45:37017/karahash?readPreference=secondaryPreferred

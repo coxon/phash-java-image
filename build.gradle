@@ -1,0 +1,17 @@
+group 'phash.coxon.com'
+
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+
+ext {
+    appName="phash-java-image"
+    moduleVersion='0.0.1-SNAPSHOT'
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.wendykierp:JTransforms:3.1'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
